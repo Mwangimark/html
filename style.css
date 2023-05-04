@@ -1,0 +1,43 @@
+
+form{
+    width: 350px;
+    margin: 50px auto;
+}
+
+form h5{
+    color: grey;
+    text-align: center;
+}
+
+form h3{
+    text-align: center;
+}
+
+.container label{
+    display: inline;
+    width: 100%;
+    margin-bottom: 10px;
+    
+ 
+}
+.container span{
+    color: red;
+}
+.container input{
+    width: 100%;
+    background-color: darkgray ;
+    border: none;
+}
+#checkbox{
+    width: fit-content;
+}
+button{
+    display: block;
+    width: 100%;
+    background-color: aquamarine;
+}
+.container h6{
+    color: grey;
+    font-size: 12px;
+    
+}
