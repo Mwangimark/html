@@ -1,6 +1,6 @@
 
 form{
-    width: 350px;
+    width: 500px;
     margin: 50px auto;
 }
 
@@ -16,8 +16,7 @@ form h3{
 .container label{
     display: inline;
     width: 100%;
-    margin-bottom: 10px;
-    
+    font-size: 13px; 
  
 }
 .container span{
@@ -25,8 +24,14 @@ form h3{
 }
 .container input{
     width: 100%;
-    background-color: darkgray ;
+    background-color: rgb(236, 232, 232) ;
     border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+.container a{
+    margin-top: o;
+    padding-top: 0;
 }
 #checkbox{
     width: fit-content;
@@ -34,7 +39,11 @@ form h3{
 button{
     display: block;
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgb(142, 202, 182);
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
 }
 .container h6{
     color: grey;
