@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <title>Sign up page</title>
+
+<head>
+    <title>sign up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
     <body>
      <form>
         <h5>Join GitHub</h5>
-        <h2>First, let's create your user account</h2>
+        <h3>First, let's create your user account</h3>
 
-        <div>
-            <label>Username</label>
+        <div class="container">
+            <label>Username<span> *</span></label>
             <input type="text" id="fname" name="fname" required>
-            <label>Email address</label>
+            <label>Email address<span> *</span></label>
             <input type="text" id="lname" name="lname" required>
-            <label>Password</label>
+            <label>Password<span> *</span></label>
             <input type="password" id="password" name="password" required>
         </br>
             <h6>Make sure it's atleast 15 characters OR atleast 8 characters including a number and a lowercase letter</h6>
-        </br>
             <a href="#">Learn more</a>
-            <h4><b>Email preference</b></h4></br>
-            <input type="checkbox"><h6>Send me occasional updates, announcements and offers</h6>
-            <button type="button">Create account</button></br>
-            <h6>By creating an account you agree to the terms of service. For more information about GitHub's privacy practices, see the Git-Hub Privacy statement. We'll occasionally send you account-related emails</h6>
+            <h4><b>Email preference</b></h4>
+            <input type="checkbox" id ="checkbox" name="checkbox" >
+            <label for ="checkbox">Send me occasional updates, announcements and offers</label>
+            <button type="button">Create account</button>
+            <h6>By creating an account you agree to the <a href="#">Terms of service</a> For more information about GitHub's privacy practices, see the <a href="#">Git-Hub Privacy statement</a>. We'll occasionally send you account-related emails</h6>
         </div>
 
      </form>
